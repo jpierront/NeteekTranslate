@@ -1,0 +1,66 @@
+email:
+  links:
+    website: 'Site Internet'
+    android: 'Application Android'
+    ios: 'Application iOS'
+    webapp: 'Application Web'
+  unsubscribe:
+    title: 'Se désinscrire'
+    subject: 'Désinscrivez-moi de ce type d''email (%email% - %id%)'
+    body: |
+      Bonjour,
+
+      Merci de ne plus m'envoyer ce type d'email.
+
+      (%email% - %id%)
+  entityHasUserInvitation:
+    subject:
+      prefix: '[ACTION REQUISE]'
+    acceptLink: 'Accepter l''invitation'
+    refuseLink: 'Refuser l''invitation'
+    new: 'Nouveau sur Neteek ? Utilisez notre application pour gérer vos listes de tâches collaborativement avec votre famille, vos amis et vos collègues. Disponible sur Android, iOS, Windows, macOS, Linux.'
+    moreLink: 'En savoir plus'
+    team:
+      subject: '%currentUserName% vous invite dans l''équipe "%title%" sur Neteek'
+    toDoList:
+      subject: '%currentUserName% vous invite sur la liste de tâches "%title%" sur Neteek'
+  userWelcome:
+    subject: 'Orchestrez votre vie avec Neteek'
+    title: 'Bienvenue %name% ! Nous sommes ravis de vous avoir à bord.'
+    content: 'Nous allons vous accompagner dans l''organisation de votre vie personnelle et professionnelle.'
+    moreLink: 'En savoir plus'
+    helpLink: 'Demander de l''aide'
+    collaborate:
+      title: 'Aidez-nous à faire de Neteek votre application idéale.'
+      tranlate: 'Traduisez Neteek dans votre langue'
+      suggestions: 'Partagez vos suggestions sur Twitter'
+      chat: 'Discutons sur Facebook'
+  userInactive:
+    new:
+      subject: 'Pas convaincu par Neteek ?'
+      content: 'Vous ne semblez pas avoir été séduit par Neteek.'
+    old:
+      subject: 'Vous nous manquez sur Neteek'
+      content: 'Vous n''avez pas utilisé Neteek depuis quelques temps.'
+    title: 'Bonjour %name%,'
+    action: 'S''il vous plaît, indiquez-nous la principale raison:'
+    answers:
+      1: 'Je vais revenir, je fais juste une petite pause'
+      2: 'Je ne pense pas à lancer Neteek'
+      3: 'Neteek <b>manque de fonctionnalités</b>'
+      4: 'Neteek <b>ne me plait pas graphiquement</b>'
+      5: 'Neteek est <b>trop complexe</b>'
+      6: 'Neteek est <b>trop lourd</b> à utiliser au quotidien'
+      7: 'Neteek est <b>trop lent</b> sur mon appareil'
+      8: 'Neteek est <b>trop instable</b> (Dysfonctionnement)'
+      9: 'Neteek <b>met trop en avant la version Premium</b>'
+      0: 'Autre'
+toDoListsLimitError:
+  title: 'Listes de tâches archivées'
+  content: 'Passez Premium pour créer plus de %limit% listes de tâches. Vos listes de tâches en excès ont été archivées. Contactez-nous en cas de problème.'
+taskRepetitionAdvancedError:
+  title: 'Répétitions de tâches modifiées'
+  content: 'Passez Premium pour avoir accès à toutes les configurations de répétition. Les tâches concernées ont été modifiées pour respecter cette restriction. Contactez-nous en cas de problème.'
+taskStatusAdvancedError:
+  title: 'Statuts de tâches modifiés'
+  content: 'Passez Premium pour personnaliser les statuts de vos tâches. Les listes de tâches concernées ont été modifiées pour respecter cette restriction. Contactez-nous en cas de problème.'

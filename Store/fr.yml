@@ -1,0 +1,42 @@
+playstore:
+    title: 'Neteek: To-Do Lists Partagées, Tâches, Rappels'
+    shortDescription: 'Collaborez: Créez et partagez tâches, to-do lists ou équipes. Simple & Efficace.'
+description: |
+    Besoin d'une liste de tâches partagée ? D'une liste de courses ? D'une checklist avant votre prochain voyage ? Utilisez Neteek !
+
+    Ajoutez de nouvelles tâches rapidement, n'oubliez plus rien, libérez votre charge mentale et améliorez votre productivité !
+
+    <b>Neteek, la meilleure solution pour vos listes de tâches partagées:</b>
+    ✔ Collaborez avec vos proches, vos collègues et camarades de classe
+    ✔ Partagez vos listes de tâches ou rejoignez une équipe
+    ✔ Accédez à vos to-do lists depuis n’importe quel appareil
+    ✔ Créez des tâches ponctuels ou récurrentes et recevez des rappels
+    ✔ Détaillez chaque tâche (Notes, catégories, priorités, complexités, …)
+    ✔ Personnalisez chaque to-do list
+
+    Téléchargez Neteek, pour gérer vos listes de tâches partagées ou personnelles !
+
+    <b>Collaborez à l’élaboration de votre application de to-do list, Neteek :</b>
+    ✔ Aidez-nous à traduire Neteek sur https://translate.neteek.com/
+    ✔ Partagez vos suggestions sur Twitter @NeteekApp
+    ✔ Discutons sur https://facebook.com/NeteekApp/
+
+    <b>Envie d'en savoir plus sur Neteek et ses to-do lists ?</b>
+    ✔ Site Internet: https://www.neteek.com
+    ✔ Aide: https://app.neteek.com/help
+    ✔ Conditions générales d'utilisation: https://app.neteek.com/terms
+    ✔ Politique de confidentialité: https://app.neteek.com/privacy
+screenshot:
+    1: '<b>Planifiez tout</b>'
+    2: '<b>Collaborez</b> avec vos proches & vos collègues'
+    3: '<b>Synchronisez</b> tous vos appareils'
+    4: '<b>Recevez des rappels</b>'
+    5: '<b>Créez des tâches rapidement</b>'
+    6: '<b>Personnalisez</b> votre application'
+    7: '<b>Rejoignez des équipes</b>'
+    8: '<b>Configurez</b> chaque liste'
+appStore:
+    title: 'Neteek: Todo, Liste des tâches'
+    subTitle: 'Tâches et partage de listes'
+    shortDescription: 'Collaborez: Créez et partagez tâches, to-do lists ou équipes. Simple & Efficace.'
+    keywords: 'liste de tâches partagée,to-do list partagée,liste de tâches,to-do list,rappel,tâche'

@@ -1,0 +1,706 @@
+form:
+  send: 'Envoyer'
+  save: 'Sauvegarder'
+  configure: 'Configurer'
+  active:
+    on: 'Activer'
+    off: 'Désactiver'
+    reactivate: 'Réactiver'
+  input:
+    required: 'Vous devez entrer une valeur'
+    maxlength: 'Merci d''utiliser {limit} caractères maximum'
+  subSubmit: 'Confirmer' #Used to validate a dialog content representing a part of a bigger form
+  default: 'Défaut'
+premium:
+  title: 'Premium'
+  partial:
+    title: 'Partiellement Premium'
+  dialog:
+    title: 'Fonctionnalité Premium'
+    titleForTeam: 'Passez l''équipe en premium'
+    subscribe: 'En savoir plus'
+loginDialog:
+  title: 'Connexion'
+  description: 'Créez votre compte pour gérer vos tâches depuis n''importe où !'
+  google: 'Se connecter avec Google'
+  facebook: 'Se connecter avec Facebook'
+  users:
+    title: '{count, plural, one{Utilisateur} other{Utilisateurs}} sur cet appareil'
+  terms: 'En vous connectant, vous acceptez nos conditions générales d''utilisation.'
+  error:
+    network:
+      title: 'Connexion impossible'
+      content: 'Vous devez être connecté à Internet pour vous identifier la première fois. Réessayez !'
+    emailUsed:
+      title: 'Adresse email déjà utilisée'
+      content: 'Votre adresse email est déjà utilisée sur un autre compte. Veuillez réessayer avec un autre compte Google ou Facebook.'
+    emailMissing:
+      title: 'Adresse email manquante'
+      content: 'Aucune adresse email n''est liée à ce compte. Veuillez réessayez avec un autre compte Google ou Facebook.'
+    other:
+      title: 'Connexion impossible'
+      content: 'Une erreur c''est produite. Veuillez réessayer. Si le problème persiste, contactez-nous.'
+toDoListDialog:
+  empty: 'Aucune liste de tâches'
+history:
+  undo:
+    button: 'Annuler'
+    success: 'Annulé'
+dialog:
+  remove: 'Retirer'
+  erase: 'Effacer'
+  reset: 'Réinitialiser'
+  close: 'Fermer'
+  cancel: 'Annuler'
+  acknowledge: 'OK'
+  no: 'Non'
+select:
+  empty: 'Aucun élément'
+exitDialog:
+  title: 'Quitter cette page'
+  content: 'Êtes-vous sûr de vouloir quitter cette page sans sauvegarder ?'
+  button: 'Oui, quitter'
+errorDialog:
+  title: 'Erreur'
+  content: 'Une erreur c''est produite. Veuillez réessayer. Si le problème persiste, contactez-nous.'
+date:
+  yesterday: 'Hier'
+  today: 'Aujourd''hui'
+  tomorrow: 'Demain'
+  format: 'd MMM yyyy'
+  formatWithoutYear: 'd MMM'
+notification:
+  task:
+    action: 'Appuyez pour accéder à la tâche.'
+    dueDate:
+      hour: 'Échéance à {time}.'
+      day: 'Échéance aujourd''hui.'
+menu:
+  personalTeam: 'Mes listes de tâches'
+  sharedToDoLists: 'Partagées avec moi'
+  sync: 'Synchroniser'
+  joinToDoList:
+    title: 'Rejoindre une liste de tâches'
+    success: 'Liste de tâches rejointe'
+  other: 'Autres liens'
+  translate: 'Aidez-nous à traduire Neteek'
+tokenInvalidDialog:
+  title: 'Problème de synchronisation'
+  content: 'Vous devez vous reconnecter dès que possible. Une connexion Internet est requise.'
+  later: 'Plus tard'
+  fix: 'Se reconnecter'
+  success: 'Connexion réussie'
+rate:
+  title: 'Évaluer Neteek'
+  switchDialog:
+    title: 'Appréciez-vous Neteek ?'
+    no: 'Pas vraiment'
+    yes: 'Oui !'
+  feedbackDialog:
+    title: 'C''est dommage'
+    content: 'Accepteriez-vous de nous expliquer pourquoi ?'
+    no: 'Non, merci'
+    yes: 'Oui'
+  rateDialog:
+    title: 'Donnez-nous 5 étoiles !'
+    content: 'Accepteriez-vous d''évaluer Neteek ? Cela ne prendra qu''une minute et nous aidera à promouvoir Neteek.'
+    no: 'Non, merci'
+    later: 'Me le rappeler plus tard'
+    yes: 'Oui'
+task:
+  toDoList:
+    title: 'Liste de tâches' #One by task
+taskQuickAdd:
+  cancel:
+    title: 'Annuler la création'
+    content: 'Êtes-vous sûr de vouloir annuler la création de cette tâche ?'
+    button: 'Oui, annuler'
+toDoList:
+  default:
+    1: 'Personnel'
+    2: 'Professionnel'
+    3: 'Courses'
+tutorial:
+  toDoList: 'Premiers pas'
+  task:
+    1: '01. 🎉 Bienvenue ! Consultez les tâches suivantes pour découvrir Neteek'
+    2: '02. ⬅️ Cochez cette tâche pour la terminer'
+    3: '03. Appuyez sur cette tâche pour en consulter ou en modifier les détails 📝'
+    4: '04. Appuyez sur le bouton "➕" pour ajouter une tâche à cette liste de tâches'
+    5: '05. Faites glisser cette tâche vers la gauche pour la supprimer ⬅️'
+    6: '06. Consultez le menu de droite " ⁝ " pour trier, filtrer, modifier ou inviter des collaborateurs à cette liste de tâches ⚙️'
+    7: '07. Consultez le menu de gauche "☰" pour accéder à vos listes de tâches, vos équipes ou vos paramètres'
+    8: '08. Créez des listes de tâches pour vous organiser (🛍️ Courses, 📚 Lectures, 🏢 Travail, ✈️ Voyages, ...)'
+    9: '09. Créez des équipes pour collaborer (Famille, Association, Travail, ...) 👥'
+    10: '10. Utilisez Neteek n''importe où sur Android, iOS ou neteek.com 📱 💻 🖥️'
+    11: '11. Utilisez Neteek quotidiennement pour plus d''efficacité 📅'
+    12: '12. Supprimez cette liste de tâches 🗑️'
+toDoListExtensionsDialog:
+  title: 'Plus de fonctionnalités'
+  titleShort: 'Plus'
+  content: 'Ajoutez des fonctionnalité à "{title}" grâce aux extensions. (Priorité, complexité, date de début, archivage, ...)'
+  button: 'Configurer'
+toDoListExtension:
+  taskArchive:
+    task:
+      on:
+        action: 'Archiver'
+        actionLong: 'Archiver cette tâche'
+        success: 'Tâche archivée'
+        state: 'Archivée'
+        stateLong: 'Cette tâche est archivée'
+      off:
+        action: 'Désarchiver'
+        actionLong: 'Désarchiver cette tâche'
+        success: 'Tâche désarchivée'
+        state: 'Non archivée'
+    taskList:
+      filter:
+        shortTitle: 'État d''archivage' #One by filter
+        title: 'Filtrer par état d''archivage' #One by filter
+        subTitle:
+          on: 'Tâches archivées affichées'
+          off: 'Tâches archivées cachées'
+  taskCategories:
+    task:
+      title: 'Catégories' #Several by task
+      placeholder: 'Ajouter des catégories'
+      empty: 'Sans catégorie'
+    taskList:
+      filter:
+        shortTitle: 'Catégories'
+        title: 'Filtrer par catégories'
+        subTitle: '{count, plural, =0{} one{1 catégorie affichée} other{# catégories affichées}}'
+      group:
+        title: 'Catégorie'
+        unnamed: 'Catégorie {id}'
+    form:
+      label: 'Catégories de tâche'
+      help: 'ex. Urgent, Optionnel'
+      description: 'Assignez des catégories à vos tâches.'
+    dialog:
+      title: 'Configurer les catégories'
+      placeholder: 'Titre (ex. Urgent, Optionnel)'
+      notice: 'Les catégories sont définies par liste de tâches'
+  taskComplexity:
+    task:
+      title: 'Complexité' #One by task
+      titleCount: '{identifier, select, half{1/2} infinite{Infinie} unknown{Inconnue} other{{identifier, plural, other{#}}}}'
+      titleLongCount: '{identifier, select, half{Complexité 1/2} infinite{Complexité infinie} unknown{Complexité inconnue} other{{identifier, plural, other{Complexité #}}}}'
+      placeholder: 'Ajouter une complexité'
+    taskList:
+      filter:
+        shortTitle: 'Complexités'
+        title: 'Filtrer par complexités'
+        subTitle: '{count, plural, =0{} one{1 complexité affichée} other{# complexités affichées}}'
+      group:
+        title: 'Complexité'
+    form:
+      label: 'Complexités de tâche'
+      help: 'ex. 0, 1/2, 1, 3, 5, 8, 13, 20, 40, 100, ∞, ?'
+      description: 'Définissez une complexité pour vos tâches. Les complexités disponibles sont celles régulièrement utilisées dans les méthodes agiles (Planning poker).'
+  taskDueDate:
+    task:
+      title: 'Date d''échéance'
+      placeholder: 'Ajouter une date d''échéance'
+    form:
+      label: 'Dates d''échéance de tâche'
+      help: 'ex. Aujourd''hui, Demain à 10H'
+      description: 'Définissez une date d''échéance pour vos tâches.'
+    taskList:
+      group:
+        title: 'Date d''échéance'
+  taskPriority:
+    task:
+      title: 'Priorité' #One by task
+      placeholder: 'Ajouter une priorité'
+      1:
+        title: 'Très haute'
+        titleLong: 'Priorité très haute'
+      2:
+        title: 'Haute'
+        titleLong: 'Priorité haute'
+      3:
+        title: 'Moyenne'
+        titleLong: 'Priorité moyenne'
+      4:
+        title: 'Basse'
+        titleLong: 'Priorité basse'
+      5:
+        title: 'Très basse'
+        titleLong: 'Priorité très basse'
+    taskList:
+      filter:
+        shortTitle: 'Priorités'
+        title: 'Filtrer par priorités'
+        subTitle: '{count, plural, =0{} one{1 priorité affichée} other{# priorités affichées}}'
+      group:
+        title: 'Priorité'
+    form:
+      label: 'Priorités de tâche'
+      help: 'ex. Très haute, Haute, Moyenne, Basse, Très basse'
+      description: 'Définissez une priorité pour vos tâches.'
+  taskRepetition:
+    task:
+      title: 'Répétition'
+      placeholder: 'Ajouter une répétition'
+      none:
+        title: 'Sans répétition'
+      daysOfWeek:
+        title: 'Jours spécifiques de la semaine'
+        subTitle: 'Ex: Chaque Lundi'
+      daysOfMonth:
+        title: 'Jours spécifiques du mois'
+        subTitle: 'Pour "Le dernier jour du mois" sélectionnez "31ème"'
+        day: '{count, plural, =1{#er} other{#ème}}'
+        days: '{days} {count, plural, =1{jour} other{jours}} de chaque mois'
+      iterationOfDaysOfWeek:
+        title: 'Itération de jours de la semaine'
+        subTitle: 'Ex: Le premier lundi de chaque mois'
+        value: '{iteration, select, 1{1er} 2{2ème} 3{3ème} 4{4ème} other{Dernier}} {day}'
+        valueShort: '{iteration, select, 1{1er} 2{2ème} 3{3ème} 4{4ème} other{Dernier}}'
+        values: '{values} de chaque mois'
+      days:
+        title: '{count, plural, one{Quotidienne} other{Tous les # jours}}'
+      weeks:
+        title: '{count, plural, one{Hebdomadaire} other{Toutes les # semaines}}'
+      months:
+        title: '{count, plural, one{Mensuelle} other{Tous les # mois}}'
+      years:
+        title: '{count, plural, one{Annuelle} other{Tous les # ans}}'
+    form:
+      label: 'Répétitions de tâches'
+      help: 'e.g. Journalière, Mensuelle, ...'
+      description: 'Définissez une fréquence de répétition pour vos tâches (Quotidienne, Hebdomadaire, Mensuelle, Annuelle, ...). Requière l''activation des dates d''échéance.'
+  taskStartDate:
+    task:
+      title: 'Date de début'
+      placeholder: 'Ajouter une date de début'
+    form:
+      label: 'Dates de début de tâche'
+      help: 'ex. Aujourd''hui, Demain à 10H'
+      description: 'Définissez une date de début pour vos tâches.'
+  taskStatus:
+    task:
+      title: 'Statut' #One by task
+      1:
+        title: 'Nouveau'
+        action: 'Statut nouveau'
+        actionLong: 'Marquer comme nouvelle'
+      2:
+        title: 'En cours'
+        action: 'Démarrer'
+        actionLong: 'Marquer comme démarrée'
+      3:
+        title: 'Terminée'
+        action: 'Terminer'
+        actionLong: 'Marquer comme terminée'
+      4:
+        title: 'Annulée'
+        action: 'Annuler'
+        actionLong: 'Marquer comme annulée'
+      5:
+        title: 'Bloquée'
+        action: 'Bloquer'
+        actionLong: 'Marquer comme bloquée'
+    taskList:
+      filter:
+        shortTitle: 'Statuts'
+        title: 'Filtrer par statuts'
+        subTitle: '{count, plural, =0{} one{1 statut affiché} other{# statuts affichés}}'
+      group:
+        title: 'Statut'
+      displayNotToDo:
+        on: 'Afficher les tâches terminées'
+        off: 'Masquer les tâches terminées'
+    form:
+      label: 'Statuts de tâche'
+      help: 'ex: Nouveau, Terminé'
+      description: 'Définissez un statut pour vos tâches. (Nouvelle, Terminée, ...)'
+    dialog:
+      title: 'Configurer les statuts'
+      notice: 'Les statuts sont définis par liste de tâches'
+page:
+  deviceConfigurationEdit:
+    title: 'Paramètres'
+    global:
+      title: 'Global'
+    tasks:
+      title: 'Tâches'
+    dueDateReminder:
+      label: 'Notifications de rappel'
+      help: 'Recevez des notifications pour les échéances de vos tâches'
+      active:
+        on: 'Activées'
+        off: 'Désactivées'
+      dateDelay:
+        label: 'Rappel pour une date d''échéance'
+        help: 'Ex. Les tâches pour aujourd''hui seront rappelées à 9H'
+        option: 'à {hour}'
+      dateTimeDelay:
+        label: 'Rappel pour une heure d''échéance'
+        help: 'Ex. Les tâches pour 9H30 seront rappelées à 9H20'
+        option:
+          minutes: '{minutes, plural, =0{0 minute} one{1 minute} other{# minutes}} avant'
+          hours: '{hours, plural, one{1 heure} other{# heures}} avant'
+    analytics:
+      label: 'Données d''utilisation'
+      help: 'Aidez-nous à améliorer Neteek en partageant des données sur votre façon de l''utiliser'
+      active:
+        on: 'Partagées'
+        off: 'Non partagées'
+    language:
+      label: 'Langue'
+    defaultTaskAddForm:
+      label: 'Formulaire d''ajout de tâche par défaut'
+      choices:
+        1:
+          title: 'Formulaire rapide uniquement'
+          description: ''
+        2:
+          title: 'Formulaire complet uniquement'
+          description: ''
+        3:
+          title: 'Formulaire rapide par défaut'
+          description: 'Appui long pour le formulaire complet'
+        4:
+          title: 'Formulaire complet par défaut'
+          description: 'Appui long pour le formulaire rapide'
+    theme:
+      label: 'Thème'
+      help: 'Choisissez la couleur de l''application'
+    startPageId:
+      label: 'Page de démarrage'
+      default: 'Dernière liste de tâches consultée'
+  help:
+    title: 'Aide'
+    contact: 'Nous contacter'
+    site: 'Visiter Neteek.com'
+    facebook: 'Nous suivre sur Facebook'
+    twitter: 'Nous suivre sur Twitter'
+    googlePlus: 'Nous suivre sur Google+'
+    version: 'Version {version}'
+  home:
+    description: 'Le meilleur moyen d''organiser vos tâches quotidiennes'
+    button: 'Commençons !'
+  invitationLink:
+    accept:
+      loginNeededDialog:
+        title: 'Invitation'
+        content: 'Identifiez-vous ou inscrivez-vous pour accepter l''invitation.'
+      successDialog:
+        title: 'Invitation'
+        content: 'Invitation acceptée.'
+      failDialog:
+        title: 'Invitation'
+        content: 'Invitation déjà acceptée, annulée ou invalide.'
+    refuse:
+      successDialog:
+        title: 'Invitation'
+        content: 'Invitation refusée.'
+      failDialog:
+        title: 'Invitation'
+        content: 'Invitation déjà refusée, annulée ou invalide.'
+  invitationList:
+    title: '{count, plural, one{Invitation en attente} other{Invitations en attente}}'
+    toDoList: 'Listes de tâches'
+    team: 'Équipes'
+    owner: 'Par {name}'
+    notFound: 'Aucune invitation en attente'
+    accept:
+      success: 'Invitation acceptée'
+    decline:
+      title: 'Refuser l''invitation'
+      content: 'Êtes-vous sûr de vouloir refuser cette invitation ?'
+      button: 'Oui, refuser'
+      success: 'Invitation refusée'
+  privacyPolicy:
+    title: 'Politique de confidentialité'
+  taskAdd:
+    title: 'Créer une tâche'
+    success: 'Tâche créée dans "{toDoListTitle}"'
+    forbidden:
+      title: 'Échec de création de tâche'
+      content: 'Vous devez être identifié pour créer une tâche.'
+  taskEdit:
+    title: 'Modifier cette tâche'
+    success: 'Tâche modifiée'
+  taskForm:
+    field:
+      title:
+        placeholder:
+          0: 'ex. Appeler Thomas'
+          1: 'ex. Acheter du lait'
+          2: 'ex. Faire les courses'
+          3: 'ex. Faire de l''exercice'
+          4: 'ex. Prendre rendez-vous chez le médecin'
+          5: 'ex. Tondre la pelouse'
+      description:
+        link: 'Ajouter une description'
+        placeholder: 'Description ...'
+      startDate:
+        title: 'Début: {date}'
+        greaterThanDueDate: 'Plus grand que la date d''échéance'
+      dueDate:
+        title: 'Échéance: {date}'
+    date:
+      time: 'Définir l''heure'
+    delete:
+      title: 'Supprimer cette tâche'
+      titleShort: 'Supprimer'
+      content: 'Êtes-vous sûr de vouloir supprimer cette tâche ?'
+      button: 'Oui, supprimer'
+      success: 'Tâche supprimée'
+  taskList:
+    title: 'Toutes les tâches'
+    add: 'Créer une tâche'
+    count: '{count, plural, =0{Aucune tâche} one{1 tâche} other{# tâches}}'
+    noToDoListFound: 'Aucune liste de tâches'
+    more: 'Afficher les {limit} tâches suivantes'
+    dropdown:
+      display: 'Affichage des tâches'
+      setup: 'Paramètres'
+    filter:
+      title: 'Filtrer par ...'
+      clear: 'Réinitialiser les filtres'
+      text:
+        shortTitle: 'Mots clés'
+        title: 'Filtrer par mots clés'
+        placeholder: 'Mots clés ...'
+    group:
+      title: 'Trier par ...'
+      alphabetical:
+        title: 'Ordre alphabétique'
+      createDate:
+        title: 'Date de création'
+      toDoList:
+        title: 'Liste de tâches'
+      startDate:
+        title: 'Date de début'
+      date:
+        title: 'Dates de début et d''échéance'
+        notScheduled: 'Sans date'
+        overdue: 'En retard'
+    defaultToDoList:
+      title: 'Définir votre liste par défaut'
+      subTitle: 'Utilisée lors de la création de tâches depuis cette page'
+    membersList:
+      shortTitle:
+        member: 'Voir les membres'
+        owner: 'Gérer les membres'
+      count:
+        members: '{count, plural, =0{Aucun membre} one{1 membre} other{# membres}}'
+        invited: '{count, plural, =0{Aucun invité} one{1 invité} other{# invités}}'
+        available: '{count, plural, =0{Aucune place disponible} one{1 place disponible} other{# places disponibles}}'
+      team:
+        title: 'Membres de cette équipe'
+      toDoList:
+        title: 'Membres de cette liste de tâches'
+      tag:
+        pending: 'Invitation en attente'
+        owner: 'Propriétaire'
+      kick:
+        title: 'Renvoyer'
+        content: 'Êtes-vous sûr de vouloir renvoyer cette personne de cette liste de tâches ?'
+        button: 'Oui, renvoyer'
+      cancel:
+        title: 'Annuler l''invitation'
+        content: 'Êtes-vous sûr de vouloir annuler l''invitation de cette personne sur cette liste de tâches ?'
+        button: 'Oui, annuler'
+      alreadyMember:
+        title: 'Attention'
+        content: 'Cette personne est déjà membre sur cette liste de tâches.'
+      alreadyInvited:
+        title: 'Attention'
+        content: 'Cette personne à déjà été invité dans cette liste de tâches.'
+      invite:
+        title: 'Inviter'
+        content: 'Êtes-vous sûr de vouloir inviter cette personne dans cette liste de tâches ?'
+        button: 'Oui, inviter'
+      fullDialog:
+        title: 'Équipe complète'
+        content: 'Pour inviter plus de personnes, prenez un abonnement plus conséquent, supprimez des membres ou annulez des invitations.'
+    memberAdd:
+      shortTitle: 'Ajouter un membre'
+      team:
+        title: 'Ajouter un membre à cette équipe'
+      toDoList:
+        title: 'Ajouter un membre à cette liste de tâches'
+      search:
+        placeholder: 'Emma Martin or emma.martin@mail.com'
+        minLength: 'Merci de saisir au moins 3 caractères'
+      empty: 'Aucun membre trouvé'
+      email:
+        link: 'Inviter par email {email}'
+    team:
+      dropdown: 'Paramètres de l''équipe'
+      delete:
+        title: 'Supprimer cette équipe'
+        titleShort: 'Supprimer'
+        content: 'Êtes-vous sûr de vouloir supprimer cette équipe ainsi que toutes les listes de tâches et tâches associées ?'
+        button: 'Oui, supprimer'
+        success: 'Équipe supprimée'
+      leave:
+        title: 'Quitter cette équipe'
+        titleShort: 'Quitter'
+        content: 'Êtes-vous sûr de vouloir quitter cette équipe ?'
+        button: 'Oui, quitter'
+        success: 'Équipe quittée'
+    toDoList:
+      dropdown: 'Paramètres de la liste'
+      add: 'Créer une liste de tâches'
+      delete:
+        title: 'Supprimer cette liste de tâches'
+        titleShort: 'Supprimer'
+        content: 'Êtes-vous sûr de vouloir supprimer cette liste de tâches ainsi que toutes les tâches associées ?'
+        button: 'Oui, supprimer'
+        success: 'Liste de tâches supprimée'
+      leave:
+        title: 'Quitter cette liste de tâches'
+        titleShort: 'Quitter'
+        content: 'Êtes-vous sûr de vouloir quitter cette liste de tâches ?'
+        button: 'Oui, quitter'
+        success: 'Liste de tâches quittée'
+  teamAdd:
+    title: 'Créer une équipe'
+    success: 'Équipe créée'
+  teamEdit:
+    title: 'Renommer cette équipe'
+    titleShort: 'Renommer'
+    success: 'Équipe renommée'
+  teamForm:
+    field:
+      name:
+        label: 'Nom'
+        placeholder: 'ex. Famille, Travail, Amis'
+    tip: 'Pensez à invitez des personnes dans votre équipe pour collaborer sur ses listes de tâches.'
+  teamSubscriptionShow:
+    title: 'Votre abonnement'
+    titleShort: 'Abonnement'
+    titleForTeam: 'Abonnement de l''équipe'
+    titleForTeamShort: 'Abonnement'
+    status:
+      free: 'Aucun abonnement actif'
+      premium: 'Abonnement actif'
+      premiumInherited: 'Car membre d''une équipe premium'
+    update: 'Gérer votre abonnement'
+    billingHistory:
+      title: 'Historique de facturation'
+      subTitle: 'Excepté pour Android et iOS'
+    connectionError:
+      title: 'Connexion impossible'
+      content: 'Vérifiez votre connexion Internet ou réessayez plus tard.'
+  teamSubscriptionForm:
+    title: 'Passez en version premium'
+    titleForTeam: 'Passez l''équipe en premium'
+    storeUserLimitNotice: 'Besoin d''un grand nombre d''utilisateurs ? Abonnez-vous depuis notre application web !'
+    globalUserLimitNotice: 'Besoin d''un grand nombre d''utilisateurs ? Contactez-nous !'
+    notAllowed: 'Vous n''êtes pas autorisé à faire des achats depuis cette plateforme. Abonnez-vous depuis notre application web !'
+    store:
+      0:
+        update: ''
+      1:
+        update: 'Pour modifier votre abonnement, rendez-vous sur notre application web Neteek.'
+      2:
+        update: 'Pour modifier votre abonnement, rendez-vous sur votre compte Apple App Store.'
+      3:
+        update: 'Pour modifier votre abonnement, rendez-vous sur votre compte Google Play Store.'
+    period:
+      UNKNOWN:
+        title: 'Paiement'
+        total: 'Facturé {price}'
+        unit: ''
+      P1M:
+        title: 'Paiement mensuel'
+        total: 'Facturé {price} chaque mois'
+        unit: 'par mois'
+      P1Y:
+        title: 'Paiement annuel'
+        total: 'Facturé {price} chaque année'
+        unit: 'par an'
+    userLimit:
+      title: 'Nombre maximum d''utilisateurs'
+      label: '{userLimit, plural, =5{1 à 5 utilisateurs} other{# utilisateurs}}'
+    price:
+      byMonth: 'Soit {price} par mois'
+      byUserByMonth: 'Soit {price} par utilisateur par mois'
+    teamPersonalFreePremium:
+      title: 'Membre d''une équipe premium'
+      description: 'Vous bénéficiez déjà gratuitement d''un compte individuel premium.'
+    teamPersonalFreePremiumOfferV1:
+      title: 'Besoin de collaborer ?'
+      description: 'Créez plutôt une équipe premium, on offre à chaque membre un compte premium.'
+    teamPersonalFreePremiumOfferV2:
+      title: 'Compte premium individuel gratuit'
+      description: 'Un compte premium sera offert à chaque membre de l''équipe.'
+    success: 'Abonnement souscrit'
+  termsAndConditions:
+    title: 'Conditions générales d''utilisation'
+  toDoListAdd:
+    title: 'Créer une liste de tâches'
+    success: 'Liste de tâches créée'
+  toDoListEdit:
+    title: 'Renommer cette liste de tâches'
+    titleShort: 'Renommer'
+    success: 'Liste de tâches renommée'
+  toDoListForm:
+    field:
+      title:
+        label: 'Titre'
+        placeholder: 'ex. Personnel, Professionnel, Courses'
+    tip: 'Pensez à ajoutez des fonctionnalités à votre liste de tâches en utilisant les extensions. (Dates de début, Priorités, Complexités, Archivage, ...)'
+  toDoListExtensions:
+    link: 'Gérer les extensions'
+    title: 'Extensions ({title})'
+    subTitle: 'Priorités, Complexités, ...'
+    deactivateDialog:
+      title: 'Désactiver cette extension'
+      content: 'Êtes-vous sûr de vouloir désactiver cette extension sur cette liste de tâches ? Vous perdrez les données liée à cette extension.'
+      button: 'Oui, désactiver'
+  userInactiveEmailReply:
+    title: 'Pourquoi n''utilisez-vous plus Neteek ?'
+    choice:
+      1: 'Je vais revenir, je fais juste une petite pause'
+      2: 'Je ne pense pas à lancer l''application'
+      3: 'L''application <b>manque de fonctionnalités</b>'
+      4: 'L''application <b>ne me plait pas graphiquement</b>'
+      5: 'L''application est <b>trop complexe</b>'
+      6: 'L''application est <b>trop lourde</b> à utiliser au quotidien'
+      7: 'L''application est <b>trop lente</b> sur mon appareil'
+      8: 'L''application est <b>trop instable</b> (Dysfonctionnement)'
+      9: 'L''application <b>met trop en avant la version Premium</b>'
+      0: 'Autre'
+    comment:
+      label: 'S''il vous plaît, dites-nous en plus:'
+      placeholder: 'J''ai besoin de ...'
+    success: 'Merci pour votre réponse'
+  userShow:
+    title: 'Compte'
+    logOut: 'Se déconnecter'
+    delete:
+      title: 'Supprimer de cet appareil'
+      content: 'Êtes-vous sûr de vouloir supprimer ce compte de cet appareil ? Vous pourrez toujours utiliser ce compte en vous connectant depuis n''importe quel appareil.'
+      button: 'Oui, supprimer'
+      success: 'Compte supprimé de cet appareil'
+features:
+  archive:
+    title: 'Archivage de tâche'
+    titleForbidden: 'Passez Premium pour archiver des tâches.'
+    example: 'ex. Archivée, Non archivée'
+    description: 'Archivez vos tâches au lieu de les supprimer définitivement.'
+  taskRepetitionAdvanced:
+    title: 'Répétition de tâche en mode avancé'
+    titleForbidden: 'Passez Premium pour utiliser ce type de répétition.'
+    description: 'Programmez des tâches le 1er jour de chaque mois, le 2eme mardi de chaque mois, les 9 jours, les 6 semaines, les 5 mois, les 4 ans ...'
+  taskStatusAdvanced:
+    title: 'Statuts de tâche en mode avancé'
+    titleForbidden: 'Passez Premium pour personnaliser les statuts de vos tâches.'
+    description: 'Choisissez les statuts disponibles pour vos tâches: Nouvelle, démarrée, terminée, annulée ou bloquée.'
+  themesPremium:
+    title: 'Thèmes premium'
+    titleForbidden: 'Passez Premium pour utiliser ce thème.'
+    description: 'Personnalisez votre application avec {count} thèmes différents.'
+  toDoListsUnlimited:
+    title: 'Listes de tâches illimitées'
+    titleForbidden: 'Passez Premium pour ajouter un nombre illimité de listes de tâches.'
+    description: 'Créez plus de {limit} listes de tâches.'

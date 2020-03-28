@@ -1,0 +1,120 @@
+localeName: 'Français' #Keep it in first place (en = English, fr = Français, ...)
+title: 'Neteek'
+app:
+  name: 'Neteek: To-Do Lists Partagées, Tâches, Rappels'
+  description: 'Besoin d''une liste de tâches partagée ? D''une liste de courses ? D''une checklist avant votre prochain voyage ? Utilisez Neteek !'
+  country: 'FR'
+  locale: 'fr_FR'
+  currency: 'EUR'
+legal:
+  terms: 'C.G.U.'
+  privacy: 'Confidentialité'
+follows:
+  title: 'Suivez-nous'
+menu:
+  features: 'Fonctionnalités'
+  screenshots: 'Captures d''écran'
+  testimonials: 'Témoignages'
+  stores: 'Téléchargements'
+homepage:
+  header:
+    title: 'Neteek, votre liste de tâches partagée'
+    alt: 'Deux listes de tâches'
+    description1: 'Besoin d’une to-do list partagée ? D’une liste de courses ? D’une checklist avant votre prochain voyage ? Utilisez Neteek !'
+    description2: 'Ajoutez de nouvelles tâches rapidement, n''oubliez plus rien, libérez votre charge mentale et améliorez votre productivité !'
+    button: 'Commencez, c''est gratuit !'
+  collaborate:
+    title: 'Collaborez en équipe sur vos to-do lists'
+    alt: 'Une liste de membres d''une équipe'
+    description: 'En famille, entre amis, au travail ou à l''école, Neteek aide votre équipe à collaborer. Soyez d''avantage productifs ensemble!'
+  synchronize:
+    title: 'Synchronisez vos listes de tâches sur tous vos appareils'
+    alt: 'La même liste de tâches affichée sur un téléphone, une tablette et un ordinateur'
+    description: 'Utilisez toutes les fonctionnalités sur toutes les plateformes. Gérez vos tâches et vos listes depuis n''importe où, à tout moment.'
+  simple:
+    title: 'Organisez votre vie simplement et efficacement'
+    alt: 'Plusieurs écrans affichant l''utilisation de base de Neteek'
+    description: 'Organisez facilement vos tâches, vos listes et vos rappels. Personnalisez, catégorisez, priorisez, répétez, fixez des dates d''échéances, ...'
+  features:
+    title: 'Fonctionnalités pour vos listes de tâches'
+    alt: 'Une liste de tâches avancée'
+    description: 'TODO'
+    feature:
+      share:
+        title: 'Listes de tâches partagées'
+        description: 'Partagez des to-do lists avec vos proches, vos collègues ou vos camarades de classe'
+      reminders:
+        title: 'Rappels de tâches'
+        description: 'Recevez une notification à chaque échéance de tâche pour ne rien manquer'
+      themes:
+        title: 'Multi-thèmes'
+        description: 'Choisissez la couleur de votre application parmi 14 thèmes clairs ou sombres'
+      teams:
+        title: 'Collaboration en équipe'
+        description: 'Créez des équipes pour collaborer plus facilement sur vos listes de tâches'
+      repeat:
+        title: 'Tâches récurrentes'
+        description: 'Idéales pour programmer vos tâches quotidiennes, hebdomadaires, mensuelles ou annuelles'
+      customizable:
+        title: 'To-do lists personnalisables'
+        description: 'Activer ou désactiver des fonctionnalités sur chaque liste de tâches (Priorités, Complexités, Dates, ...)'
+  screenshots:
+    title: 'Captures d''écran de listes de tâches'
+    screenshot:
+      1:
+        alt: 'Liste de tâches'
+      2:
+        alt: 'Liste des membres d''une équipe'
+      3:
+        alt: 'Configuration d''une date d''échéance pour une tâche'
+      4:
+        alt: 'Ajout rapide d''une tâche dans une to-do list'
+      5:
+        alt: 'Liste de tâches avancée'
+      6:
+        alt: 'Configuration d''une liste de tâches'
+      7:
+        alt: 'Neteek utilisant un thème clair'
+      8:
+        alt: 'Neteek utilisant un thème foncé'
+      9:
+        alt: 'Neteek utilisant un thème noir'
+      10:
+        alt: 'Liste d''équipes ayant chacune plusieurs listes de tâches'
+  testimonials:
+    title: 'Témoignages à propos de Neteek'
+    testimonial:
+      1:
+        author: 'Fatima Y.'
+        message: 'Parfaite ! Aide à réaliser une bonne organisation de soi, j''adore merci !'
+        source: 'Android App'
+      2:
+        author: 'Bruneau M.'
+        message: 'Application très facile d’usage, très pratique et claire. Sa conception satisfait les besoins de tout homme ou femme d’affaire très occupés.'
+        source: 'iOS App'
+      3:
+        author: 'Ronan B.'
+        message: 'Vraiment top pour ne rien oublier suivant les pays où je vais ! Au top !'
+        source: 'Android App'
+      4:
+        author: 'Taoufik A.'
+        message: 'Très bonne application.'
+        source: 'Android App'
+      5:
+        author: 'David P.'
+        message: 'Application très ergonomique'
+        source: 'Android App'
+      6:
+        author: 'Grégory D.'
+        message: 'Une appli de todo originale qui va à l''essentiel. Le top !'
+        source: 'Android App'
+  stores:
+    title: 'Boostez votre productivité dès maintenant avec Neteek !'
+    alt: 'Deux personnes collaborant sur une liste de tâches partagée'
+store:
+  google:
+    link: 'Neteek, la liste de tâches partagées, sur Google Play'
+  apple:
+    link: 'Neteek, la liste de tâches partagées, sur l''App Store'
+  web:
+    link: 'Neteek, la listes de tâches partagées, sur le web'

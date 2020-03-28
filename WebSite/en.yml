@@ -1,0 +1,120 @@
+localeName: 'English' #Keep it in first place (en = English, fr = Français, ...)
+title: 'Neteek'
+app:
+  name: 'Neteek: Shared To-Do Lists, Tasks, Reminders'
+  description: 'Need a shared task list? A shopping list? A checklist before your next trip? Use Neteek!'
+  country: 'US'
+  locale: 'en_US'
+  currency: 'USD'
+legal:
+  terms: 'Terms'
+  privacy: 'Privacy'
+follows:
+  title: 'Follow Us'
+menu:
+  features: 'Features'
+  screenshots: 'Screenshots'
+  testimonials: 'Testimonials'
+  stores: 'Downloads'
+homepage:
+  header:
+    title: 'Neteek, your shared to-do lists'
+    alt: 'Two to-do lists'
+    description1: 'Need a shared task list? A shopping list? A checklist before your next trip? Use Neteek!'
+    description2: 'Add new tasks quickly, don''t forget anything, free your mental load and improve your productivity!'
+    button: 'Get started, it''s free!'
+  collaborate:
+    title: 'Collaborate as a team on your task lists'
+    alt: 'A list of team members'
+    description: 'With family, with friends, at work or at school, Neteek helps your team to collaborate. Be more productive together!'
+  synchronize:
+    title: 'Synchronize your to-do lists across all your devices'
+    alt: 'The same to-do list displayed on a phone, a tablet and a computer'
+    description: 'Use all features on all platforms. Manage your tasks and lists from anywhere, anytime.'
+  simple:
+    title: 'Organize your life simply and efficiently'
+    alt: 'Several screens showing the basic use of Neteek'
+    description: 'Easily organize your tasks, lists and reminders. Personalize, categorize, prioritize, repeat, set deadlines, ...'
+  features:
+    title: 'Features for your to-do lists'
+    alt: 'An advanced to-do list'
+    description: 'TODO'
+    feature:
+      share:
+        title: 'Shared to-do lists'
+        description: 'Share task lists with loved ones, colleagues or classmates'
+      reminders:
+        title: 'Task reminders'
+        description: 'Receive due date notifications for each task to not miss anything'
+      themes:
+        title: 'Multi-themes'
+        description: 'Choose the color of your application from 14 light or dark themes'
+      teams:
+        title: 'Team collaboration'
+        description: 'Create teams to collaborate more easily on your to-do lists'
+      repeat:
+        title: 'Recurring tasks'
+        description: 'Perfect to schedule your daily, weekly, monthly or yearly tasks'
+      customizable:
+        title: 'Customizable task lists'
+        description: 'Activate or deactivate features on each to-do list (Priorities, Complexities, Dates, ...)'
+  screenshots:
+    title: 'Screenshots of to-do lists'
+    screenshot:
+      1:
+        alt: 'Task list'
+      2:
+        alt: 'List of team members'
+      3:
+        alt: 'Configuring a due date for a task'
+      4:
+        alt: 'Quick addition of a task to a to-do list'
+      5:
+        alt: 'Advanced task list'
+      6:
+        alt: 'Configuring a task list'
+      7:
+        alt: 'Neteek using a clear theme'
+      8:
+        alt: 'Neteek using a dark theme'
+      9:
+        alt: 'Neteek using a black theme'
+      10:
+        alt: 'List of teams each with several task lists'
+  testimonials:
+    title: 'Testimonials about Neteek'
+    testimonial:
+      1:
+        author: 'Hatoon A.'
+        message: 'This is definitely a great app that has really helped. The features in there are quite nice and the design is very clean and attractive.'
+        source: 'Android App'
+      2:
+        author: 'Didiswaggy'
+        message: 'Wonderful!!! Just downloaded it after trying dozens task manager apps, I found the treasure. Really like the display.'
+        source: 'iOS App'
+      3:
+        author: 'Sol D.'
+        message: 'Perfect to share tasks with my team!'
+        source: 'iOS App'
+      4:
+        author: 'Younes B.'
+        message: 'Excellent app!'
+        source: 'Android App'
+      5:
+        author: 'R Chandrasekar'
+        message: 'Great App. I love it.'
+        source: 'Android App'
+      6:
+        author: 'Simon W.'
+        message: 'Works well and delivers exactly as expected'
+        source: 'Android App'
+  stores:
+    title: 'Let''s start boosting your productivity now with Neteek!'
+    alt: 'Two people collaborating on a shared to-do list'
+store:
+  google:
+    link: 'Neteek, the shared to-do list, on Google Play'
+  apple:
+    link: 'Neteek, the shared to-do list, on the App Store'
+  web:
+    link: 'Neteek, the shared to-do list, on the web'

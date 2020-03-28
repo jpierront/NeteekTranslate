@@ -1,0 +1,706 @@
+form:
+  send: 'Submit'
+  save: 'Save'
+  configure: 'Configure'
+  active:
+    on: 'Activate'
+    off: 'Deactivate'
+    reactivate: 'Reactivate'
+  input:
+    required: 'You must enter a value'
+    maxlength: 'Please use {limit} characters maximum'
+  subSubmit: 'Confirm' #Used to validate a dialog content representing a part of a bigger form
+  default: 'Default'
+premium:
+  title: 'Premium'
+  partial:
+    title: 'Partially Premium'
+  dialog:
+    title: 'Premium Feature'
+    titleForTeam: 'Upgrade team to premium'
+    subscribe: 'En savoir plus'
+loginDialog:
+  title: 'Sign in'
+  description: 'Create your account to manage your tasks from anywhere!'
+  google: 'Sign in with Google'
+  facebook: 'Sign in with Facebook'
+  users:
+    title: '{count, plural, one{User} other{Users}} on this device'
+  terms: 'By signing in, you agree to our terms and conditions of use.'
+  error:
+    network:
+      title: 'Impossible to connect'
+      content: 'You must be connected to the Internet to authenticate the first time. Try again!'
+    emailUsed:
+      title: 'Email address already used'
+      content: 'Your email address is already used on another account. Please try again with another Google or Facebook account.'
+    emailMissing:
+      title: 'Email address missing'
+      content: 'No email address is linked to this account. Please try again with another Google or Facebook account.'
+    other:
+      title: 'Impossible to connect'
+      content: 'An error occured. Please try again. If the problem persists, contact us.'
+toDoListDialog:
+  empty: 'No to-do list'
+history:
+  undo:
+    button: 'Undo'
+    success: 'Canceled'
+dialog:
+  remove: 'Remove'
+  erase: 'Erase'
+  reset: 'Reset'
+  close: 'Close'
+  cancel: 'Cancel'
+  acknowledge: 'OK'
+  no: 'No'
+select:
+  empty: 'No element'
+exitDialog:
+  title: 'Leave this page'
+  content: 'Are you sure you want to leave the page without saving?'
+  button: 'Yes, leave'
+errorDialog:
+  title: 'Error'
+  content: 'An error occured. Please try again. If the problem persists, contact us.'
+date:
+  yesterday: 'Yesterday'
+  today: 'Today'
+  tomorrow: 'Tomorrow'
+  format: 'MMM d, yyyy'
+  formatWithoutYear: 'MMM d'
+notification:
+  task:
+    action: 'Press to access the task.'
+    dueDate:
+      hour: 'Due at {time}.'
+      day: 'Due today.'
+menu:
+  personalTeam: 'My to-do lists'
+  sharedToDoLists: 'Shared with me'
+  sync: 'Synchronize'
+  joinToDoList:
+    title: 'Join a to-do list'
+    success: 'To-do list joined'
+  other: 'Other links'
+  translate: 'Help us translate Neteek'
+tokenInvalidDialog:
+  title: 'Synchronization problem'
+  content: 'You must login again as soon as possible. An Internet connection is required.'
+  later: 'Later'
+  fix: 'Login again'
+  success: 'Successful connection'
+rate:
+  title: 'Rate Neteek'
+  switchDialog:
+    title: 'Enjoying Neteek?'
+    no: 'Not really'
+    yes: 'Yes!'
+  feedbackDialog:
+    title: 'Too bad'
+    content: 'Would you mind giving us some feedback?'
+    no: 'No, thanks'
+    yes: 'Yes'
+  rateDialog:
+    title: 'Rate us 5 stars!'
+    content: 'Would you mind rating Neteek? It won’t take more than a minute and helps to promote our app.'
+    no: 'No, thanks'
+    later: 'Remind me later'
+    yes: 'Yes'
+task:
+  toDoList:
+    title: 'To-do list' #One by task
+taskQuickAdd:
+  cancel:
+    title: 'Cancel creation'
+    content: 'Are you sure you want to cancel the creation of this task?'
+    button: 'Yes, cancel'
+toDoList:
+  default:
+    1: 'Personal'
+    2: 'Professional'
+    3: 'Errands'
+tutorial:
+  toDoList: 'First steps'
+  task:
+    1: '01. 🎉 Welcome! Consult the following tasks to discover Neteek'
+    2: '02. ⬅️ Check this task to complete it'
+    3: '03. Tap on this task to view or modify its details 📝'
+    4: '04. Press the "➕" button to add a task to this to-do list'
+    5: '05. Drag this task to the left to delete it ⬅️'
+    6: '06. Consult the right menu " ⁝ " to sort, filter, modify or invite collaborators to this to-do list ⚙️'
+    7: '07. Consult the left menu "☰" to access your to-do lists, your teams or your settings'
+    8: '08. Create to-do lists to organize yourself (🛍️ Shopping, 📚 Reading, 🏢 Work, ✈️ Travel, ...)'
+    9: '09. Create teams to collaborate (Family, Association, Work, ...) 👥'
+    10: '10. Use Neteek anywhere on Android, iOS or neteek.com 📱 💻 🖥️'
+    11: '11. Use Neteek daily for more efficiency 📅'
+    12: '12. Delete this to-do list 🗑️'
+toDoListExtensionsDialog:
+  title: 'More features'
+  titleShort: 'More'
+  content: 'Add functionality to "{title}" with extensions. (Priority, complexity, start date, archiving, ...)'
+  button: 'Configure'
+toDoListExtension:
+  taskArchive:
+    task:
+      on:
+        action: 'Archive'
+        actionLong: 'Archive this task'
+        success: 'Task archived'
+        state: 'Archived'
+        stateLong: 'This task is archived'
+      off:
+        action: 'Unarchive'
+        actionLong: 'Unarchive this task'
+        success: 'Task unarchived'
+        state: 'Not archived'
+    taskList:
+      filter:
+        shortTitle: 'Archive state' #One by filter
+        title: 'Filter by archive state' #One by filter
+        subTitle:
+          on: 'Archived tasks displayed'
+          off: 'Archived tasks hidden'
+  taskCategories:
+    task:
+      title: 'Categories' #Several by task
+      placeholder: 'Add categories'
+      empty: 'Uncategorized'
+    taskList:
+      filter:
+        shortTitle: 'Categories'
+        title: 'Filter by categories'
+        subTitle: '{count, plural, =0{} one{1 category displayed} other{# categories displayed}}'
+      group:
+        title: 'Category'
+        unnamed: 'Category {id}'
+    form:
+      label: 'Task categories'
+      help: 'e.g. Urgent, Optional'
+      description: 'Assign categories to your tasks.'
+    dialog:
+      title: 'Configure categories'
+      placeholder: 'Title (e.g. Urgent, Optional)'
+      notice: 'Categories are defined by to-do list'
+  taskComplexity:
+    task:
+      title: 'Complexity' #One by task
+      titleCount: '{identifier, select, half{1/2} infinite{Infinite} unknown{Unknown} other{{identifier, plural, other{#}}}}'
+      titleLongCount: '{identifier, select, half{1/2 complexity} infinite{Infinite complexity} unknown{Unknown complexity} other{{identifier, plural, other{# complexity}}}}'
+      placeholder: 'Add a complexity'
+    taskList:
+      filter:
+        shortTitle: 'Complexities'
+        title: 'Filter by complexities'
+        subTitle: '{count, plural, =0{} one{1 complexity displayed} other{# complexities displayed}}'
+      group:
+        title: 'Complexity'
+    form:
+      label: 'Task complexities'
+      help: 'e.g. 0, 1/2, 1, 3, 5, 8, 13, 20, 40, 100, ∞, ?'
+      description: 'Define complexities for your tasks. The available complexities are those regularly used in agile methods (Planning poker).'
+  taskDueDate:
+    task:
+      title: 'Due date'
+      placeholder: 'Add a due date'
+    form:
+      label: 'Task due dates'
+      help: 'e.g. Today, Tomorrow at 10 am'
+      description: 'Define dead lines for your tasks.'
+    taskList:
+      group:
+        title: 'Due date'
+  taskPriority:
+    task:
+      title: 'Priority' #One by task
+      placeholder: 'Add a priority'
+      1:
+        title: 'Very high'
+        titleLong: 'Very high priority'
+      2:
+        title: 'High'
+        titleLong: 'High priority'
+      3:
+        title: 'Medium'
+        titleLong: 'Medium priority'
+      4:
+        title: 'Low'
+        titleLong: 'Low priority'
+      5:
+        title: 'Very low'
+        titleLong: 'Very low priority'
+    taskList:
+      filter:
+        shortTitle: 'Priorities'
+        title: 'Filter by priorities'
+        subTitle: '{count, plural, =0{} one{1 priority displayed} other{# priorities displayed}}'
+      group:
+        title: 'Priority'
+    form:
+      label: 'Task priorities'
+      help: 'e.g. Very high, High, Medium, Low, Very low'
+      description: 'Define priorities for your tasks.'
+  taskRepetition:
+    task:
+      title: 'Repetition'
+      placeholder: 'Add a repetition'
+      none:
+        title: 'Without repetition'
+      daysOfWeek:
+        title: 'Specific days of the week'
+        subTitle: 'e.g. Every Monday'
+      daysOfMonth:
+        title: 'Specific days of the month'
+        subTitle: 'For "The last day of the month" select "31st"'
+        day: '{count, plural, =1{#st} =2{#nd} =3{#rd} =21{#st} =22{#nd} =23{#rd} =31{#st} other{#th}}'
+        days: '{days} {count, plural, =1{day} other{days}} of each month'
+      iterationOfDaysOfWeek:
+        title: 'Iteration of days of the week'
+        subTitle: 'e.g. The first monday of each month'
+        value: '{iteration, select, 1{1st} 2{2nd} 3{3rd} 4{4th} other{Last}} {day}'
+        valueShort: '{iteration, select, 1{1st} 2{2nd} 3{3rd} 4{4th} other{Last}}'
+        values: '{values} of each month'
+      days:
+        title: '{count, plural, one{Daily} other{Every # days}}'
+      weeks:
+        title: '{count, plural, one{Weekly} other{Every # weeks}}'
+      months:
+        title: '{count, plural, one{Monthly} other{Every # months}}'
+      years:
+        title: '{count, plural, one{Yearly} other{Every # years}}'
+    form:
+      label: 'Task repetitions'
+      help: 'e.g. Daily, Monthly, ...'
+      description: 'Set a repetition frequency for your tasks (Daily, Weekly, Monthly, Annual, ...). Requires activation of due dates.'
+  taskStartDate:
+    task:
+      title: 'Start date'
+      placeholder: 'Add a start date'
+    form:
+      label: 'Task start dates'
+      help: 'e.g. Today, Tomorrow at 10 am'
+      description: 'Define when you can start working on your tasks.'
+  taskStatus:
+    task:
+      title: 'Status' #One by task
+      1:
+        title: 'New'
+        action: 'Mark as new'
+        actionLong: 'Mark as new'
+      2:
+        title: 'In Progress'
+        action: 'Start'
+        actionLong: 'Mark as in progress'
+      3:
+        title: 'Completed'
+        action: 'Complete'
+        actionLong: 'Mark as completed'
+      4:
+        title: 'Canceled'
+        action: 'Cancel'
+        actionLong: 'Mark as canceled'
+      5:
+        title: 'Blocked'
+        action: 'Block'
+        actionLong: 'Mark as blocked'
+    taskList:
+      filter:
+        shortTitle: 'Statuses'
+        title: 'Filter by statuses'
+        subTitle: '{count, plural, =0{} one{1 status displayed} other{# statuses displayed}}'
+      group:
+        title: 'Status'
+      displayNotToDo:
+        on: 'Show completed tasks'
+        off: 'Hide completed tasks'
+    form:
+      label: 'Task statuses'
+      help: 'e.g. New, Completed'
+      description: 'Define status for your tasks. (New, Completed, ...)'
+    dialog:
+      title: 'Configure statuses'
+      notice: 'Statuses are defined by to-do list'
+page:
+  deviceConfigurationEdit:
+    title: 'Settings'
+    global:
+      title: 'Global'
+    tasks:
+      title: 'Tasks'
+    dueDateReminder:
+      label: 'Reminder notifications'
+      help: 'Receive notifications for the deadlines of your tasks'
+      active:
+        on: 'Enabled'
+        off: 'Disabled'
+      dateDelay:
+        label: 'Reminder for a due day'
+        help: 'e.g. Tasks for today will be reminded at 9H'
+        option: 'at {hour}'
+      dateTimeDelay:
+        label: 'Reminder for a due time'
+        help: 'e.g. Tasks for 9H30 will be reminded at 9H20'
+        option:
+          minutes: '{minutes, plural, =0{0 minute} one{1 minute} other{# minutes}} before'
+          hours: '{hours, plural, one{1 hour} other{# hours}} before'
+    analytics:
+      label: 'Usage data'
+      help: 'Help us improve Neteek by sharing data about how you use it'
+      active:
+        on: 'Shared'
+        off: 'Not shared'
+    language:
+      label: 'Language'
+    defaultTaskAddForm:
+      label: 'Default task adding form'
+      choices:
+        1:
+          title: 'Quick form only'
+          description: ''
+        2:
+          title: 'Full form only'
+          description: ''
+        3:
+          title: 'Quick form by default'
+          description: 'Use long press for full form'
+        4:
+          title: 'Full form by default'
+          description: 'Use long press for quick form'
+    theme:
+      label: 'Theme'
+      help: 'Choose the color of the application'
+    startPageId:
+      label: 'Start page'
+      default: 'Last viewed task list'
+  help:
+    title: 'Help'
+    contact: 'Contact us'
+    site: 'Visit Neteek.com'
+    facebook: 'Follow us on Facebook'
+    twitter: 'Follow us on Twitter'
+    googlePlus: 'Follow us on Google+'
+    version: 'Version {version}'
+  home:
+    description: 'The best way to organize your daily tasks'
+    button: 'Let''s start!'
+  invitationLink:
+    accept:
+      loginNeededDialog:
+        title: 'Invitation'
+        content: 'Sign in or register to accept the invitation.'
+      successDialog:
+        title: 'Invitation'
+        content: 'Invitation accepted.'
+      failDialog:
+        title: 'Invitation'
+        content: 'Invitation already accepted, canceled or invalid.'
+    refuse:
+      successDialog:
+        title: 'Invitation'
+        content: 'Invitation declined.'
+      failDialog:
+        title: 'Invitation'
+        content: 'Invitation already declined, canceled or invalid.'
+  invitationList:
+    title: '{count, plural, one{Pending invitation} other{Pending invitations}}'
+    toDoList: 'To-do lists'
+    team: 'Teams'
+    owner: 'By {name}'
+    notFound: 'No pending invitation'
+    accept:
+      success: 'Invitation accepted'
+    decline:
+      title: 'Decline invitation'
+      content: 'Are you sure you want to decline this invitation?'
+      button: 'Yes, decline'
+      success: 'Invitation declined'
+  privacyPolicy:
+    title: 'Privacy policy'
+  taskAdd:
+    title: 'Create a task'
+    success: 'Task created in "{toDoListTitle}"'
+    forbidden:
+      title: 'Task creation fail'
+      content: 'You must be logged in to create a Task.'
+  taskEdit:
+    title: 'Update task'
+    success: 'Task updated'
+  taskForm:
+    field:
+      title:
+        placeholder:
+          0: 'e.g. Call Bill'
+          1: 'e.g. Buy milk'
+          2: 'e.g. Go shopping'
+          3: 'e.g. Do exercise'
+          4: 'e.g. Make a doctor''s appointment'
+          5: 'e.g. Mow the lawn'
+      description:
+        link: 'Add a description'
+        placeholder: 'Description ...'
+      startDate:
+        title: 'Start date: {date}'
+        greaterThanDueDate: 'Should not be greater than due date'
+      dueDate:
+        title: 'Due date: {date}'
+    date:
+      time: 'Set time'
+    delete:
+      title: 'Delete this task'
+      titleShort: 'Delete'
+      content: 'Are you sure you want to delete this task?'
+      button: 'Yes, delete'
+      success: 'Task deleted'
+  taskList:
+    title: 'All tasks'
+    add: 'Create a task'
+    count: '{count, plural, =0{No task} one{1 task} other{# tasks}}'
+    noToDoListFound: 'No to-do list'
+    more: 'Display next {limit} tasks'
+    dropdown:
+      display: 'Tasks display'
+      setup: 'Settings'
+    filter:
+      title: 'Filter by ...'
+      clear: 'Reset filters'
+      text:
+        shortTitle: 'Keywords'
+        title: 'Filter by keywords'
+        placeholder: 'Keywords ...'
+    group:
+      title: 'Sort by ...'
+      alphabetical:
+        title: 'Alphabetical order'
+      createDate:
+        title: 'Creation date'
+      toDoList:
+        title: 'To-do list'
+      startDate:
+        title: 'Start date'
+      date:
+        title: 'Start and due dates'
+        notScheduled: 'Undated'
+        overdue: 'Overdue'
+    defaultToDoList:
+      title: 'Define your default to-do list'
+      subTitle: 'Used when creating tasks from this page'
+    membersList:
+      shortTitle:
+        member: 'See members'
+        owner: 'Manage members'
+      count:
+        members: '{count, plural, =0{No member} one{1 member} other{# members}}'
+        invited: '{count, plural, =0{No guest} one{1 guest} other{# guests}}'
+        available: '{count, plural, =0{No seat available} one{1 seat available} other{# seats available}}'
+      team:
+        title: 'Members of this team'
+      toDoList:
+        title: 'Members of this to-do list'
+      tag:
+        pending: 'Pending invitation'
+        owner: 'Owner'
+      kick:
+        title: 'Kick'
+        content: 'Are you sure you want to kick this user from this to-do list?'
+        button: 'Yes, kick'
+      cancel:
+        title: 'Cancel invitation'
+        content: 'Are you sure you want to cancel invitation of this user on this to-do list?'
+        button: 'Yes, cancel'
+      alreadyMember:
+        title: 'Warning'
+        content: 'This user is already a member of this to-do list.'
+      alreadyInvited:
+        title: 'Warning'
+        content: 'This user has already been invited in this to-do list.'
+      invite:
+        title: 'Invite'
+        content: 'Are you sure you want to invite this user to this to-do list?'
+        button: 'Yes, invite'
+      fullDialog:
+        title: 'Full team'
+        content: 'To invite more people, take a larger subscription, delete members, or cancel invitations.'
+    memberAdd:
+      shortTitle: 'Add a member'
+      team:
+        title: 'Add a member to this team'
+      toDoList:
+        title: 'Add a member to this to-do list'
+      search:
+        placeholder: 'Jane Doe or jane.doe@mail.com'
+        minLength: 'Please enter at least 3 characters'
+      empty: 'No member found'
+      email:
+        link: 'Invite by email {email}'
+    team:
+      dropdown: 'Team settings'
+      delete:
+        title: 'Delete this team'
+        titleShort: 'Delete'
+        content: 'Are you sure you want to delete this team and all associated to-do lists and tasks?'
+        button: 'Yes, delete'
+        success: 'Team deleted'
+      leave:
+        title: 'Leave this team'
+        titleShort: 'Leave'
+        content: 'Are you sure you want to leave this team?'
+        button: 'Yes, leave'
+        success: 'Team leaved'
+    toDoList:
+      dropdown: 'To-do list settings'
+      add: 'Create a to-do list'
+      delete:
+        title: 'Delete this to-do list'
+        titleShort: 'Delete'
+        content: 'Are you sure you want to delete this to-do list and all associated tasks?'
+        button: 'Yes, delete'
+        success: 'To-do list deleted'
+      leave:
+        title: 'Leave this to-do list'
+        titleShort: 'Leave'
+        content: 'Are you sure you want to leave this to-do list?'
+        button: 'Yes, leave'
+        success: 'To-do list leaved'
+  teamAdd:
+    title: 'Create a team'
+    success: 'Team created'
+  teamEdit:
+    title: 'Rename team'
+    titleShort: 'Rename'
+    success: 'Team renamed'
+  teamForm:
+    field:
+      name:
+        label: 'Name'
+        placeholder: 'e.g. Family, Work, Friends'
+    tip: 'Consider inviting people within your team to collaborate on its to-do lists.'
+  teamSubscriptionShow:
+    title: 'Your subscription'
+    titleShort: 'Subscription'
+    titleForTeam: 'Team subscription'
+    titleForTeamShort: 'Subscription'
+    status:
+      free: 'No active subscription'
+      premium: 'Active subscription'
+      premiumInherited: 'Because member of a premium team'
+    update: 'Manage subscription'
+    billingHistory:
+      title: 'Billing History'
+      subTitle: 'Except for Android and iOS'
+    connectionError:
+      title: 'Impossible to connect'
+      content: 'Check your Internet connection or try again later.'
+  teamSubscriptionForm:
+    title: 'Upgrade to premium'
+    titleForTeam: 'Upgrade team to premium'
+    storeUserLimitNotice: 'Need a large number of users? Subscribe from our web application!'
+    globalUserLimitNotice: 'Need a large number of users? Contact us!'
+    notAllowed: 'You are not allowed to make purchases from this platform. Subscribe from our web application!'
+    store:
+      0:
+        update: ''
+      1:
+        update: 'To update your subscription, go to our Neteek web application.'
+      2:
+        update: 'To update your subscription, go to your Apple App Store account.'
+      3:
+        update: 'To update your subscription, go to your Google Play Store account.'
+    period:
+      UNKNOWN:
+        title: 'Payment'
+        total: 'Billed {price}'
+        unit: ''
+      P1M:
+        title: 'Monthly payment'
+        total: 'Billed {price} each month'
+        unit: 'per month'
+      P1Y:
+        title: 'Annual payment'
+        total: 'Billed {price} each year'
+        unit: 'per year'
+    userLimit:
+      title: 'Maximum number of users'
+      label: '{userLimit, plural, =5{1 to 5 users} other{# users}}'
+    price:
+      byMonth: 'Either {price} per month'
+      byUserByMonth: 'Either {price} per user per month'
+    teamPersonalFreePremium:
+      title: 'Premium team member'
+      description: 'You already have a free individual premium account.'
+    teamPersonalFreePremiumOfferV1:
+      title: 'Need to collaborate?'
+      description: 'Create a premium team instead, we offer to each member an individual premium account.'
+    teamPersonalFreePremiumOfferV2:
+      title: 'Free individual premium account'
+      description: 'A premium account will be offered to each team member.'
+    success: 'Subscription purchased'
+  termsAndConditions:
+    title: 'Terms and conditions of use'
+  toDoListAdd:
+    title: 'Create a to-do list'
+    success: 'To-do list created'
+  toDoListEdit:
+    title: 'Rename to-do list'
+    titleShort: 'Rename'
+    success: 'To-do list renamed'
+  toDoListForm:
+    field:
+      title:
+        label: 'Title'
+        placeholder: 'e.g. Personal, Professional, Errands'
+    tip: 'Consider adding features to your to-do list using extensions. (Start dates, Priorities, Complexities, Archiving, ...)'
+  toDoListExtensions:
+    link: 'Manage extensions'
+    title: 'Extensions ({title})'
+    subTitle: 'Priorities, Complexities, ...'
+    deactivateDialog:
+      title: 'Deactivate this extension'
+      content: 'Are you sure you want to deactivate this extension on this to-do list? You will lose the data related to this extension.'
+      button: 'Yes, deactivate'
+  userInactiveEmailReply:
+    title: 'Why do not you use Neteek anymore?'
+    choice:
+      1: 'I''ll come back, I''m just taking a short break'
+      2: 'I don''t think about launching the app'
+      3: 'The application <b>lacks features</b>'
+      4: 'The application <b>doesn''t please me graphically</b>'
+      5: 'The application is <b>too complex</b>'
+      6: 'The application is <b>too heavy</b> to use daily'
+      7: 'The application is <b>too slow</b> on my device'
+      8: 'The application is <b>too unstable</b> (Malfunction)'
+      9: 'The application <b>puts too much emphasis on the Premium version</b>'
+      0: 'Other'
+    comment:
+      label: 'Please, tell us more:'
+      placeholder: 'I need ...'
+    success: 'Thank you for your reply'
+  userShow:
+    title: 'Account'
+    logOut: 'Sign out'
+    delete:
+      title: 'Delete from this device'
+      content: 'Are you sure you want to delete this account from this device? You will still be able to use this account by logging in from any device.'
+      button: 'Yes, delete'
+      success: 'Account deleted from this device'
+features:
+  archive:
+    title: 'Task archiving'
+    titleForbidden: 'Upgrade to Premium to archive tasks.'
+    example: 'e.g. Archived, Not archived'
+    description: 'Archive your tasks instead of permanently deleting them.'
+  taskRepetitionAdvanced:
+    title: 'Advanced task repetition'
+    titleForbidden: 'Upgrade to Premium to use this kind of repetition.'
+    description: 'Schedule tasks every 1st day of each month, 2nd tuesday of each month, 9 days, 6 weeks, 5 months, 4 years ...'
+  taskStatusAdvanced:
+    title: 'Advanced task statuses'
+    titleForbidden: 'Upgrade to Premium to customize the status of your tasks.'
+    description: 'Choose the statuses available for your tasks: New, started, completed, canceled, or blocked.'
+  themesPremium:
+    title: 'Premium themes'
+    titleForbidden: 'Upgrade to Premium to use this theme.'
+    description: 'Customize your application with {count} color variants.'
+  toDoListsUnlimited:
+    title: 'Unlimited to-do lists'
+    titleForbidden: 'Upgrade to Premium to add an unlimited number of to-do lists.'
+    description: 'Create more than {limit} to-do lists.'

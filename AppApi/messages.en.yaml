@@ -1,0 +1,66 @@
+email:
+  links:
+    website: 'Website'
+    android: 'Android App'
+    ios: 'iOS App'
+    webapp: 'Web App'
+  unsubscribe:
+    title: 'Unsubscribe'
+    subject: 'Unsubscribe me from this kind of email (%email% - %id%)'
+    body: |
+      Hello,
+
+      Please don't send me this kind of email anymore.
+
+      (%email% - %id%)
+  entityHasUserInvitation:
+    subject:
+      prefix: '[ACTION REQUIRED]'
+    acceptLink: 'Accept the invitation'
+    refuseLink: 'Refuse the invitation'
+    new: 'New on Neteek? Use our app to manage your task lists collaboratively with your family, friends and colleagues. Available on Android, iOS, Windows, macOS, Linux.'
+    moreLink: 'Read more'
+    team:
+      subject: '%currentUserName% invite you in the "%title%" team on Neteek'
+    toDoList:
+      subject: '%currentUserName% invite you on the "%title%" to do list on Neteek'
+  userWelcome:
+    subject: 'Orchestrate your life with Neteek'
+    title: 'Welcome %name%! We are so happy to have you on board.'
+    content: 'We will accompany you in organizing your personal and professional life.'
+    moreLink: 'Find out more'
+    helpLink: 'Ask for help'
+    collaborate:
+      title: 'Help us make Neteek the app that suits you.'
+      tranlate: 'Translate Neteek into your language'
+      suggestions: 'Share your suggestions on Twitter'
+      chat: 'Let''s discuss on Facebook'
+  userInactive:
+    new:
+      subject: 'Not convinced by Neteek?'
+      content: 'You don''t seem to have been seduced by Neteek.'
+    old:
+      subject: 'We miss you on Neteek'
+      content: 'You haven''t used Neteek for some time.'
+    title: 'Hello %name%,'
+    action: 'Please, tell us the main reason:'
+    answers:
+      1: 'I''ll come back, I''m just taking a short break'
+      2: 'I don''t think about launching Neteek'
+      3: 'Neteek <b>lacks features</b>'
+      4: 'Neteek <b>doesn''t please me graphically</b>'
+      5: 'Neteek is <b>too complex</b>'
+      6: 'Neteek is <b>too heavy</b> to use daily'
+      7: 'Neteek is <b>too slow</b> on my device'
+      8: 'Neteek is <b>too unstable</b> (Malfunction)'
+      9: 'Neteek <b>puts too much emphasis on the Premium version</b>'
+      0: 'Other'
+toDoListsLimitError:
+  title: 'Archived to-do lists'
+  content: 'Upgrade to Premium to create more than %limit% to-do lists. Your excess to-do lists have been archived. Contact us in case of any problem.'
+taskRepetitionAdvancedError:
+  title: 'Updated tasks repetitions'
+  content: 'Upgrade to Premium to have access to all repetition configurations. The involved tasks have been modified to comply with this restriction. Contact us in case of any problem.'
+taskStatusAdvancedError:
+  title: 'Updated tasks statuses'
+  content: 'Upgrade to Premium to customize the status of your tasks. The involved to-do lists have been modified to comply with this restriction. Contact us in case of any problem.'

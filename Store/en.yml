@@ -1,0 +1,42 @@
+playstore:
+    title: 'Shared To-Do Lists, Tasks, Reminders'
+    shortDescription: 'Collaborate: Create and share any task, to-do list or team. Simple & Efficient.'
+description: |
+    Need a shared to-do list? A shopping list? A checklist before your next trip? Use Neteek!
+
+    Add new tasks quickly, don't forget anything, free your mental load and improve your productivity!
+
+    <b>Neteek, the best solution for your shared to-do lists:</b>
+    ✔ Collaborate with your loved ones, colleagues and classmates
+    ✔ Share your task lists or join a team
+    ✔ Access your task lists from any device
+    ✔ Create punctual or recurring tasks and receive reminders
+    ✔ Detail each task (Notes, categories, priorities, complexities,…)
+    ✔ Personalize each task list
+
+    Download Neteek, to manage your personal or shared to-do lists!
+
+    <b>Collaborate in the development of your to-do list application, Neteek:</b>
+    ✔ Help us translate Neteek on https://translate.neteek.com/
+    ✔ Share your suggestions on Twitter @NeteekApp
+    ✔ Let's discuss on https://facebook.com/NeteekApp/
+
+    <b>Want to know more about Neteek and its to-do lists?</b>
+    ✔ Website: https://www.neteek.com
+    ✔ Help: https://app.neteek.com/help
+    ✔ General conditions of use: https://app.neteek.com/terms
+    ✔ Privacy policy: https://app.neteek.com/privacy
+screenshot:
+    1: '<b>Plan anything</b>'
+    2: '<b>Collaborate</b> with loved ones & colleagues","<b>Collaborate</b> with loved ones & colleagues'
+    3: '<b>Synchronize</b> all your devices","<b>Synchronize</b> all your devices'
+    4: '<b>Receive reminders</b>","<b>Receive reminders</b>'
+    5: '<b>Create tasks quickly</b>","<b>Create tasks quickly</b>'
+    6: '<b>Personalize</b> your app","<b>Personalize</b> your app'
+    7: '<b>Join teams</b>","<b>Join teams</b>'
+    8: '<b>Configure</b> each list","<b>Configure</b> each list'
+appStore:
+    title: 'Neteek: To do list & Tasks app'
+    subTitle: 'To do list sharing & reminders'
+    shortDescription: 'Collaborate: Create and share any task, to-do list or team. Simple & Efficient'
+    keywords: 'shared to-do,shared to-do list,shared task list,reminder,task,task list,tasks,to-do,to-do list'
